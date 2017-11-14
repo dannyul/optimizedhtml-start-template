@@ -43,6 +43,7 @@ body
 	position: relative
 	line-height: 1.65
 	font-family: $default-font
+	font-style: normal 
 	overflow-x: hidden
 	opacity: 1
 
@@ -51,4 +52,501 @@ body
 	max-width: 100%
 	height: auto
 
+.wrapper
+	max-width: 1600px
+	margin: 0 auto
+
+
+.main-header
+  background-image: url('../img/header-background.jpg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top center 
+  width: 100%
+  height: 100vh
+  	
+  h1.promo-header  
+    padding-top: 134px
+    font-size: 2.5em //40px
+    letter-spacing: 0.3em
+    color: $darkgrey
+    font-weight: normal
+    margin: 0 
+    span
+      color: $accent
+  
+  p.promo-text
+    font-size: 0.938em //15px
+    letter-spacing: 0.15em   	   
+    color: $accent
+    span
+      font-style: italic 
+      font-weight: 500
+
+  button.learn-more-button
+  	width: 200px
+  	height: 60px
+  	font-size: 0.938em // 15px
+  	text-transform: uppercase 
+  	letter-spacing: 0.15em 
+  	background-color: $aquamarine
+  	color: white
+  	border: none
+  	-webkit-border-radius: 5px 
+  	border-radius: 5px 
+  	margin-top: 70px
+  	
+hr
+  max-width: 100%
+  padding-top: 6.5px
+  padding-bottom: 6.5px
+  background-image: url('https://imgur.com/nGHglG8.png')
+  background-repeat: no-repeat
+  background-position: center
+  border: none
+  margin: 0	auto
+
+hr.small
+  width: 430px
+  max-width: 100%
+  margin-left: auto
+  margin-right: auto
+  margin-bottom: 50px 
+
+.mm-menu
+  background-color: white
+  font-weight: 200
+  border-color: transparent
+
+.mm-menu .mm-listview
+  border-color: transparent
+  	
+.mm-panels > .mm-panel:after, .mm-panels > .mm-panel:before
+  display: 	none   	
+
+.mm-menu.mm-offcanvas
+  width: 80%
+  max-width: 310px
+  
+.mm-title
+  font-size: 40px
+  text-transform: lowercase
+
+.left-slide
+  padding-left: 35px
+
+.mm-panels > .mm-panel > .mm-listview:first-child, .mm-panels > .mm-panel > .mm-navbar + .mm-listview
+  margin-top: 25px	
+  margin-bottom: 0 
+  
+.mm-navbar
+  position: static
+
+.mm-panels > .mm-panel > .mm-listview
+  margin: 0	
+
+.top-line
+  
+.my-button
+  margin-top: 63px
+  font-size: 24px
+  color: black
+  cursor: pointer
+  text-decoration: none 
+
+
+a.my-button
+  &:hover
+  color: black
+  opacity: 0.8
+  text-decoration: none 
+  &:active
+    color: black
+    text-decoration: none 
+  
+
+.centered
+  text-align: center
+
+.desc
+  font-size: 14px 
+  color: $accent
+  letter-spacing: 0.01em 
+  padding-top: 70px
+  
+
+
+.portfolio-header
+  padding: 110px 15px
+  
+.port-desc
+  background-color: #f3f5f8 
+
+
+.wrapper-2
+  width: 1116px
+  margin: 0 auto
+
+
+@media (min-width: 1200px)
+  .container
+    max-width: 1630px
+
+@media (max-width: 768px)
+  .p0
+    padding-left: 0
+    padding-right: 0  
+
+
+
+.benefits-block .fa
+  font-size: 60px
+  color: white
+
+.benefits-block .fa:before
+
+  display: block
+  text-align: center
+  line-height: 150px
+  width: 150px	
+  height: 150px	
+  -webkit-border-radius: 	50% 
+  border-radius: 	50%  
+  background-color: $aquamarine 
+
+  
+/* .benefits-block
+  h2
+  text-transform: uppercase
+  h2:after
+    content: ''
+    display: block
+    width: 33px
+    height: 3px
+    background-color: $aquamarine
+    margin: 28px auto */
+
+
+.benefits
+  padding-top: 	100px
+  padding-bottom: 	100px  
+/* .circle
+  text-align: center
+  line-height: 150px
+  width: 150px	
+  height: 150px	
+  -webkit-border-radius: 	50% 
+  border-radius: 	50%  
+  background-color: $aquamarine  */
+
+.benefits__h2
+  padding-bottom: 	90px 
+
+.responsive__col
+ padding-top: 	135px
+ padding-bottom: 	135px  
+
+.responsive__p
+  max-width: 458px
+  color: $accent
+  font-size: 14px
+  text-align: justify
+  margin: 0 auto
+
+.flowers
+  height: 300px
+  background-image: url('../img/flowes.jpg')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.flowers__p
+  font-size: 	40px 
+  letter-spacing: 	0.25em 
+  line-height: 0.15em
+.flowers__p2
+  font-size: 	25px 
+  letter-spacing: 	0.3em 
+  line-height: 0.15em
+  padding-bottom: 	42px 
+.flowers
+  padding-top: 	50px
+  padding-bottom: 	50px  
+  color: white
+  .fa-chevron-down:before
+    display: block
+    text-align: center
+    line-height: 45px
+    width: 45px	
+    height: 45px	
+    -webkit-border-radius: 	50% 
+    border-radius: 	50%  
+    background-color: $aquamarine 
+
+.flowers
+  .fa-chevron-down
+    color: white
+
+.popular-problems
+  padding: 105px 0
+  h2
+    text-transform: uppercase
+    letter-spacing:   0.15em 
+  h2:after
+    content: ''
+    display: block
+    width: 33px
+    height: 3px
+    background-color: $aquamarine
+    margin: 18px auto
+
+.problem-block__p
+  width: 360px
+  font-size:  14px
+  color: $accent
+  font-weight: 500
+  margin: 0 auto
+  letter-spacing: 0em 
+
+.passion
+  background-color: $darkblue
+.passion > .container
+  padding: 64px 0
+
+.passion__button
+  width: 296px 
+  height: 76px 
+  background-color: transparent
+  border: 1px solid white
+  font-size: 15px
+  font-weight: 500
+  color: white
+  letter-spacing:   0.15em 
+  &:hover
+    cursor: pointer
+    background-color: white
+    color: $darkgrey
+
+.mask
+  width: 225px
+  height: 226px
+  background-image: url('../img/mask.png'), url('../img/photo_1.jpg')
+
+
+.employees
+  padding-top: 65px
+  img
+    mask-image: url('../img/mask.png')
+    -webkit-mask-image: url('../img/mask.png')
+  p
+    margin: 0 auto
+    width: 360px
+    font-size: 14px
+    color: $accent 
+
+.employees-row
+  padding-top: 64px
+
+.profile-icon
+  color: white
+  margin-right: 11px 
+
+.profile-icon:nth-child(3n)
+  margin-right: 0
+
+.profile-icon:before
+  display: block
+  text-align: center
+  line-height: 40px
+  width: 40px 
+  height: 40px  
+  -webkit-border-radius:  50% 
+  border-radius:  50%  
+  background-color: $darkgrey
+
+.profile-icon:hover:before
+  background-color: $aquamarine
+  cursor: pointer   
+
+
+.icons
+  padding-top: 39px
+
+.controls
+  padding: 105px 0 
+
+
+.default-p
+  font-weight: 500
+  font-size: 14px
+  letter-spacing: 0
+  color: $accent
+  line-height: 1.25em 
+
+.p70
+  width: 45ch
+  margin: 0 auto
+  text-align: justify 
+  max-width: 80%
+
+h2.default-header
+  margin: 0
+  font-weight: 500
+  font-size: 15px
+  letter-spacing: 0.15em
+  color: $darkgrey
+  padding-bottom: 27px 
+  text-transform: uppercase 
+  text-align: center
+
+h2.benefits-block_header
+  margin-top: 52px
+  letter-spacing: 0 
+  
+h2.middle-highlight::after
+  content: ''
+  display: block
+  width: 33px
+  height: 3px
+  background-color: $aquamarine
+  margin-top: 28px 
+  margin-left: auto
+  margin-right: auto  
+    
+h2.mt28::after
+  margin-top: 28px 
+  margin-left: auto
+  margin-right: auto 
+
+h2.pb0
+  padding-bottom: 0
+
+
+h2.mt-46
+  margin-top: 46px
+
+.problem-block_p
+  text-align: justify
+  width: 38ch
+  max-width: 80%
+  margin-right: auto
+  margin-left: auto
+  margin-top: 34px
+
+h2.problem-block_header
+  padding-bottom: 0
+
+p.employees-block_p
+  width: 38ch
+  text-align: justify 
+
+h2.employees-block_h
+  margin-top: 56px 
+
+
+.subscribe_input
+  width: 353px
+  height: 67px
+  border: 1px solid white
+  background-color: transparent
+  border-radius: 2px
+
+.subscribe_submit
+  width: 99px
+  height: 67px
+  background-color: $aquamarine
+  border: none
+  font-size: 15px
+  text-transform: uppercase
+  color: white
+  font-weight: 500
+  font-family: "gotham-round"
+  letter-spacing: 0.15em 
+  
+
+
+.subscribe
+  height: 451px
+  background-image: url('../img/subscribe.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+h2.subscribe_h2
+  color: white
+  margin-bottom: 47px 
+  padding-bottom: 0
+
+.subscribe_plane-icon
+  color: white
+  margin-top: 121px 
+  margin-bottom: 25px
+
+.mask-s
+  width: 100%
+  height: 100%
+  background-color: rgba(36,40,48,0.7)
+
+.drop-us
+  background-color: #f3f5f8
+
+.drop-us > .container
+  padding-top: 127px
+  
+.contacts-block
+  width: 360px
+  height: 160px
+  background-color: white
+  padding-top: 30px
+  padding-bottom: 30px  
+
+
+.contacts-block-icon
+  font-size: 20px
+
+.drop-us_hr
+  margin-bottom: 94px
+
+  
+.contacts-block_icons
+  padding-top: 96px
+  padding-bottom: 96px
+
+
+.main-footer_p
+  display: inline-block
+
+.main-footer
+  background-color: #242830
+
+.ml
+  padding-left: 230px
+  
+.mr
+  padding-right: 230px 
+
+.main-footer > .container
+  padding: 57px 0 
+  color: white
+  
+
+.padding-0
+  padding-left:   0
+  padding-right:  0  
+  
+
+.benefits_p
+  padding-top:  30px 
+  margin:   0 auto 
+  width: 35ch
+  text-align: center
+  
+.responsive__col ul
+  list-style: none
+
+
+
+    
 @import "media" // Всегда в конце
+
+
